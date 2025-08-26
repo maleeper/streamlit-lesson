@@ -1,6 +1,6 @@
 import streamlit as st
-st.write("Hello world!!!!")
-st.write("---")
+# st.write("Hello world!!!!")
+# st.write("---")
 
 
 
@@ -41,8 +41,8 @@ st.write("---")
 # my_list = [10,50,409] # Python list
 # my_dict = {'Number':[1,2,3], 'Color': ['Blue', 'Yellow', 'Green']} # python dictionary
 
-##### We will use pandas and numpy to generate a DataFrame. 
-##### For now, think of a DataFrame as a table with columns, rows and data.
+# #### We will use pandas and numpy to generate a DataFrame. 
+# #### For now, think of a DataFrame as a table with columns, rows and data.
 # import numpy as np
 # import pandas as pd 
 # np.random.seed(1)
@@ -80,7 +80,7 @@ st.write("---")
 #                         "Col2":np.random.randint(low=25,high=80,size=10)
 #                         })
 
-#### and will plot the data
+# ### and will plot the data
 # import matplotlib.pyplot as plt
 # import seaborn as sns  
 # st.write("* Plot with Matplotlib/Seaborn") # we create a figure and plot the data
@@ -212,7 +212,7 @@ st.write("---")
 # st.write("---")
 
 # st.write("Some song to bring light to your day")
-# st.audio(data="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav",
+# st.audio(data="https://upload.wikimedia.org/wikipedia/commons/7/7f/1_California_Inbound_Route_Announcement.wav",
 #         start_time=0)
 # st.write("---")   
 
